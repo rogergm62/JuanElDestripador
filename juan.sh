@@ -3,7 +3,7 @@
 # It finds and tests several wordlists located in "seclist."
 
 # The following line is where the hashes are located
-HASF="/home/kali/.msf4/loot/20260206155050_tyrell_192.168.1.142_windows.hashes_06>
+HASF="/home/kali/.msf4/loot/20260206155050_tyrell_192.168.1.142_windows.hashes_06"
 # This is where the world lists are located, I recoment start with Common Credentials
 # Using "seclists/Passwords" or just "/seclist" could be time-consuming.
 # Verify the location of seclists. This is the default location using "apt install seclists."
