@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # CIS 450 Pen Testing. Rogelio G.
 #This script automates the use of John the Ripper
 # It finds and tests several wordlists located in "seclist."
@@ -6,7 +8,7 @@
 rm ~/.john/john.pot
 
 # The following line is where the hashes are located
-HASF="/home/kali/.msf4/loot/20260206155050_tyrell_192.168.1.142_windows.hashes_06"
+HASF="/home/kali/.msf4/loot/20260206155050_tyrell_192.168.1.142_windows.hashes_063985.txt"
 # This is where the world lists are located, I recoment start with Common Credentials
 # Using "seclists/Passwords" or just "/seclist" could be time-consuming.
 # Verify the location of seclists. This is the default location using "apt install seclists."
