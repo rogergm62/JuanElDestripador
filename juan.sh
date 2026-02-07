@@ -2,6 +2,9 @@
 #This script automates the use of John the Ripper
 # It finds and tests several wordlists located in "seclist."
 
+# If you want to delete the stored passwords uncommnet the following line:
+rm ~/.john/john.pot
+
 # The following line is where the hashes are located
 HASF="/home/kali/.msf4/loot/20260206155050_tyrell_192.168.1.142_windows.hashes_06"
 # This is where the world lists are located, I recoment start with Common Credentials
