@@ -15,7 +15,7 @@ for WORDLIST in $(find "$BASE" -type f -name "*.txt"); do
     
     # Modify the format according to the type of hashes, e.g., NT or netntlmv2
     # I recommend starting with no rules, then try Korelogic, and finally Jumbo.
-    john --format=NT --rules=Jumbo --wordlist="$WORDLIST" "$HASF"
+    time john --format=NT --rules=Jumbo --wordlist="$WORDLIST" "$HASF"
 done
 #
 echo "Passwords"
