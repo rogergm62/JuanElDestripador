@@ -30,6 +30,10 @@ echo "Passwords"
 john --show --format=NT "$HASF"
 
 # ***************** HASHCAT *******************************
+
+# Uncomment the next line to delete all stored passwords
+rm ~/.hashcat/hashcat.potfile
+
 # This loop tests one wordlist after another:
 for WORDLIST in $(find "$BASE" -type f -name "*.txt"); do
     echo "****** TRYING WORLIST: $WORDLIST"
