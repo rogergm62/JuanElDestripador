@@ -38,7 +38,7 @@ rm ~/.hashcat/hashcat.potfile
 for WORDLIST in $(find "$BASE" -type f -name "*.txt"); do
     echo "****** TRYING WORLIST: $WORDLIST"
     
-    # Modify the format according to the type of hashes, e.g., 1000 for NT
+    # Modify the format according to the type of hashes, e.g., 1000 for NTLM or 5600 for NTLMv2
     # I recommend adding a wordlist plus a rule like best66 or rockyou-30000 to compare to Korelogic or Jumbo.
     # Check ls /usr/share/hashcat/rules/ for a complete list of rules
     time hashcat -m 1000 -a 0 "$HASF" "$WORDLIST" -r /usr/share/hashcat/rules/best66.rule
