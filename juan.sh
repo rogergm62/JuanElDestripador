@@ -8,6 +8,7 @@
 rm ~/.john/john.pot
 
 # The following line is where the hashes are located
+# You can create a new folder with your favorite wordlist files
 HASF="/home/kali/.msf4/loot/20260206155050_tyrell_192.168.1.142_windows.hashes_063985.txt"
 # This is where the world lists are located, I recoment start with Common Credentials
 # Using "seclists/Passwords" or just "/seclist" could be time-consuming.
